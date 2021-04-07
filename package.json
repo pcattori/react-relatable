@@ -1,0 +1,41 @@
+{
+  "name": "react-relatable",
+  "version": "0.0.0-semantic-release",
+  "description": "Composable React utilities for tables",
+  "keywords": [
+    "react",
+    "table"
+  ],
+  "repository": "github:pcattori/react-toolkit",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "typecheck": "tsc --noEmit",
+    "build": "webpack --mode='production'",
+    "start:dev": "webpack serve --mode='development' --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@pcattori/react-toolkit": "^1.4.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-scroll-sync": "^0.8.0",
+    "@types/react-virtualized-auto-sizer": "^1.0.0",
+    "copy-webpack-plugin": "^8.1.0",
+    "css-loader": "^5.2.0",
+    "style-loader": "^2.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "modern-normalize": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scroll-sync": "^0.9.0",
+    "react-virtualized-auto-sizer": "^1.0.5",
+    "use-deep-compare-effect": "^1.6.1"
+  }
+}
